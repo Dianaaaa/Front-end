@@ -1,13 +1,42 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+    <div id="header">
+      <navbar></navbar>
+    </div>
+    <!--<div id="carousel-component">
+      <carousel></carousel>
+    </div>
+    <div id="featurettes-component">
+      <featurettes></featurettes>
+      </div>
+    <div id="bonus">
+      <game></game>
+    </div>
+    <div id="DFooter">
+      <DFooter></DFooter>
+    </div>-->
+
   </div>
 </template>
 
 <script>
+import navbar from '@/components/navbar'
+/*import carousel from '@/components/carousel'
+import DFooter from '@/components/DFooter'
+import featurettes from '@/components/featurettes'
+import game from '@/components/game'*/
 export default {
-  name: 'app'
+  name: 'app',
+  babel: {
+        presets: ['es2015']
+    },
+  components: {
+    navbar,
+    /*carousel,
+    DFooter,
+    featurettes,
+    game*/
+  }
 }
 </script>
 
@@ -18,6 +47,12 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
-}
+  margin-top: 0px;
+ }
+ #carousel-component{
+   margin: 10px;
+ }
+ #bonus {
+   margin: 50px
+ }
 </style>
