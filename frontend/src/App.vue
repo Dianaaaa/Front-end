@@ -3,10 +3,10 @@
     <div id="header">
       <navbar></navbar>
     </div>
-    <!--<div id="carousel-component">
+    <div id="carousel-component">
       <carousel></carousel>
     </div>
-    <div id="featurettes-component">
+    <!--<div id="featurettes-component">
       <featurettes></featurettes>
       </div>
     <div id="bonus">
@@ -21,8 +21,8 @@
 
 <script>
 import navbar from '@/components/navbar'
-/*import carousel from '@/components/carousel'
-import DFooter from '@/components/DFooter'
+import carousel from '@/components/carousel'
+/*import DFooter from '@/components/DFooter'
 import featurettes from '@/components/featurettes'
 import game from '@/components/game'*/
 export default {
@@ -32,8 +32,8 @@ export default {
     },
   components: {
     navbar,
-    /*carousel,
-    DFooter,
+    carousel,
+    /*DFooter,
     featurettes,
     game*/
   }
@@ -50,7 +50,7 @@ export default {
   margin-top: 0px;
  }
  #carousel-component{
-   margin: 10px;
+   margin:0px;
  }
  #bonus {
    margin: 50px
