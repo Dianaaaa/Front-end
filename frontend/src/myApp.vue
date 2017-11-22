@@ -8,11 +8,11 @@
     </div>
     <!--<div id="featurettes-component">
       <featurettes></featurettes>
-      </div>
+    </div>-->
     <div id="bonus">
-      <game></game>
+      <bonus></bonus>
     </div>
-    <div id="DFooter">
+    <!--<div id="DFooter">
       <DFooter></DFooter>
     </div>-->
 
@@ -23,8 +23,8 @@
 import navbar from '@/components/navbar'
 import carousel from '@/components/carousel'
 /*import DFooter from '@/components/DFooter'
-import featurettes from '@/components/featurettes'
-import game from '@/components/game'*/
+import featurettes from '@/components/featurettes'*/
+import bonus from '@/components/bonus'
 export default {
   name: 'app',
   babel: {
@@ -34,8 +34,8 @@ export default {
     navbar,
     carousel,
     /*DFooter,
-    featurettes,
-    game*/
+    featurettes,*/
+    bonus
   }
 }
 </script>
