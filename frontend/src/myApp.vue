@@ -12,9 +12,9 @@
     <div id="bonus">
       <bonus></bonus>
     </div>
-    <!--<div id="DFooter">
+    <div id="DFooter">
       <DFooter></DFooter>
-    </div>-->
+    </div>
 
   </div>
 </template>
@@ -22,8 +22,8 @@
 <script>
 import navbar from '@/components/navbar'
 import carousel from '@/components/carousel'
-/*import DFooter from '@/components/DFooter'
-import featurettes from '@/components/featurettes'*/
+import DFooter from '@/components/DFooter'
+/*import featurettes from '@/components/featurettes'*/
 import bonus from '@/components/bonus'
 export default {
   name: 'app',
@@ -33,8 +33,8 @@ export default {
   components: {
     navbar,
     carousel,
-    /*DFooter,
-    featurettes,*/
+    DFooter,
+    /*featurettes,*/
     bonus
   }
 }
