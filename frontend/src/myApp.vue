@@ -6,9 +6,9 @@
     <div id="carousel-component">
       <carousel></carousel>
     </div>
-    <!--<div id="featurettes-component">
+    <div id="featurettes-component">
       <featurettes></featurettes>
-    </div>-->
+    </div>
     <div id="bonus">
       <bonus></bonus>
     </div>
@@ -23,7 +23,7 @@
 import navbar from '@/components/navbar'
 import carousel from '@/components/carousel'
 import DFooter from '@/components/DFooter'
-/*import featurettes from '@/components/featurettes'*/
+import featurettes from '@/components/featurettes'
 import bonus from '@/components/bonus'
 export default {
   name: 'app',
@@ -34,7 +34,7 @@ export default {
     navbar,
     carousel,
     DFooter,
-    /*featurettes,*/
+    featurettes,
     bonus
   }
 }

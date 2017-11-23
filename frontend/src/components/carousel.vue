@@ -7,13 +7,19 @@
           </ol>
           <div class="carousel-inner" role="listbox">
             <div class="item active">
+              <a href=#gamee>
               <img src="../assets/philo1.jpg" alt="First slide">
+            </a>
             </div>
             <div class="item">
+              <a href=#gamee>
               <img src="../assets/philosophy.jpg" alt="Second slide">
+            </a>
             </div>
             <div class="item">
+              <a href=#gamee>
               <img src="../assets/philo3.jpg" alt="Third slide">
+            </a>
             </div>
           </div>
           <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
@@ -27,10 +33,12 @@
         </div>
     </template>
 
-    <script>
+<script>
     export default {
       name: 'carousel'
+
     }
+
     </script>
 
     <style>

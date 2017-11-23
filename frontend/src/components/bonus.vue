@@ -2,7 +2,7 @@
   <div id=container>
   <div id="getPassword">
     <p>这是一个小小的bonus!</p>
-    <buttton @click="btnClick" type="button" class="btn btn-success">获取密码</buttton>
+    <button @click="btnClick" type="button" class="btn btn-success">获取密码</button>
     <p>Password: {{ password }}</p>
     <input v-model="anumber">
     <p v-if="anumber == password">欢迎来到我的第二个vue！玩得开心！</p>
