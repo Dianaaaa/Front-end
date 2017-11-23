@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import myApp from './myApp'
 import router from './router'
+import game from './components/game'
 
 Vue.config.productionTip = false
 
@@ -10,6 +11,6 @@ Vue.config.productionTip = false
 new Vue({
   el: '#app',
   router,
-  template: '<myApp/>',
-  components: { myApp }
+  template: '<game/>',
+  components: { game }
 })
